@@ -6,6 +6,12 @@ function checkForSpam(message) {
     return false;
   }
 }
+
+// function checkForSpam(message) {
+//   const regex = /(spam|sale)/i;
+//   return regex.test(message);
+// }
+
 console.log(checkForSpam("Latest technology news"));
 console.log(checkForSpam("JavaScript weekly newsletter"));
 console.log(checkForSpam("Get best sale offers now!"));
